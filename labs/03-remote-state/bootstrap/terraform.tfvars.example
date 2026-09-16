@@ -1,0 +1,6 @@
+expected_account_id = "487479758924"
+aws_region          = "us-east-1"
+owner               = "workshop-learner"
+
+bucket_prefix = "tf-lab03-state"
+state_key     = "labs/03/workload/terraform.tfstate"

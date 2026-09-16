@@ -1,0 +1,47 @@
+# Terraform working directories
+**/.terraform/*
+
+# State files
+*.tfstate
+*.tfstate.*
+
+# Saved plans and crash logs
+*.tfplan
+crash.log
+crash.*.log
+
+# Local variable values can contain secrets
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+!*.tfvars.json.example
+
+# Local override files
+*.override.tf
+*.override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration
+.terraformrc
+terraform.rc
+
+# Lab 03 - Remote State specific
+labs/03-remote-state/workload/backend.tf
+labs/03-remote-state/workload/backend.hcl
+labs/03-remote-state/workload/*.backup.tfstate
+labs/03-remote-state/bootstrap/*.tfplan
+
+# Lock files
+.terraform.lock.hcl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+project_name = "state-lab"
+generation   = 1
+
+lock_probe_generation = 1
+lock_hold_seconds      = 0
